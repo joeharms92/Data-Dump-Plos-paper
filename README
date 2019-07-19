@@ -1,0 +1,18 @@
+README
+
+Code and data for "Low-dose material-specific radiography using monoenergetic photons"
+
+About each directory - Most folders have the following subfolders - analysis, include, results, and src.
+Most simulation outputs, in the form of .root files are in results folders
+include and src contain the headers and code files for each Geant4 simulation
+analysis folders contain parser scripts which read the root files
+
+The folders MIRDPhantomDose, MIRDPhantomDoseWPlae, PenetrationInAir, and SteelPlateDose are for penetration or dose calculations, and the outputs for each of these simulations can be seen in Fig.2, Table 1, and Fig. 4.
+
+The folder ContrastImage contains the geometry and simulation outputs for Fig. 3, Figs. 5-7 and Tables 2-3
+The subfolder Matlab in ContrastImage contains implementations ofthe non-local noise suppression algorithm used within the paper as well as image outputs in text file format.
+
+The authors are happy to share more information on how to properly use the codes provided herein and for helping interpreting the data. Their emails are below:
+Joe Harms: joe.harms.92@gmail.com
+Anna Erickson: anna.erickson@me.gatech.edu
+Luke Maloney: lukej.maloney@gatech.edu
